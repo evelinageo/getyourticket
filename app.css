@@ -1,0 +1,74 @@
+/* display */
+body {
+    background: #252422;
+    font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    /*make the candy text lighter*/
+    font-weight: 100;
+
+}
+
+.blurb h2 {
+    color: #eb5e28;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #ccc5b9;
+    font-weight: 100;
+    font-size: 1.125rem;
+}
+
+.blurb h3 {
+    color: #fffcf2;
+    font-weight: 100;
+    font-size: 1.125rem;
+
+}
+
+/* the candy */
+#mainNavbar .navbar-brand {
+    color: #eb5e28;
+}
+
+/* the home,about,tickets, they have class=nav-link*/
+#mainNavbar .nav-link {
+    color: white;
+
+}
+
+/* change the color when you hover */
+#mainNavbar .nav-link:hover {
+    color: #eb5e28;
+}
+
+#headingGroup span {
+    color: #eb5e28;
+}
+
+#headingGroup h2 {
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+/* define class  that when you scroll down
+the navbar changes color*/
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background 1s;
+}
+
+
+
+/* 1200 is screen size*/
+@media (max-width:1200px) {
+    #headingGroup h2 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+
+}
